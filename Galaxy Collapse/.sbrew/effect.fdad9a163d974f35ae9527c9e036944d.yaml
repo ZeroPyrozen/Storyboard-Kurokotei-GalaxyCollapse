@@ -1,0 +1,26 @@
+﻿FormatVersion: 7
+Name: "Highlight"
+Script: "GCHitobjectHighlight"
+Config:
+  StartTime:
+    Type: "System.Int32"
+    Value: "330093"
+  EndTime:
+    Type: "System.Int32"
+    Value: "353577"
+  BeatDivisor:
+    Type: "System.Int32"
+    Value: "8"
+  FadeDuration:
+    Type: "System.Int32"
+    Value: "500"
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random seed"
+Layers:
+  13eb0cbed66b4c36b770775d68a3cdb4:
+    Name: "Highlight"
+    OsbLayer: Foreground
+    DiffSpecific: No
+    Visible: Yes
