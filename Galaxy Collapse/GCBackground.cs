@@ -115,7 +115,7 @@ namespace StorybrewScripts
             BlueSprite.Fade(117676, 117885, 0, 0.5);
             BlueSprite.Fade(176528, 0);
             RectangleSprite.Fade(176528, 1);
-            RectangleSprite.Fade(179428, 0);
+            RectangleSprite.Fade(179694, 0);
 
             Flash(130065, true);
             Flash(142865, true);
@@ -156,7 +156,7 @@ namespace StorybrewScripts
 
         void ThirdKiai()
         {
-            DefaultSprite.Fade(179428, 1);
+            DefaultSprite.Fade(179694, 1);
             RedFlash(179727, 190928);
             DefaultSprite.Fade(190928, 191428, 1, 0);
             RectangleSprite.Fade(190928, 1);

@@ -187,6 +187,8 @@ namespace StorybrewScripts
 
         void FourthBuildup()
         {
+            WhiteFlash(230944, 0.5);
+
             WhiteFlash(232272, 0.5);
             WhiteFlash(232479, 0.5);
             WhiteFlash(232583, 0.5);
@@ -267,8 +269,8 @@ namespace StorybrewScripts
 
         void ThirdKiai()
         {
-            FlashSprite.Color(205378, Color4.Red);
-            Flash(205378, 217078);
+            FlashSprite.Color(205444, Color4.Red);
+            Flash(205444, 217078);
             Flash(218103, 227628);
             FlashSprite.Color(227628, Color4.White);
         }
